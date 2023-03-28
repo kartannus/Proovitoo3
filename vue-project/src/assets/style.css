@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cupcake {
+  position: absolute;
+  top: 1.875rem;
+  left: 2.188rem;
+}
+
+.logo {
+  position: absolute;
+  width: 2.938rem;
+  height: 2.938rem;
+}
+
+.btn {
+  background-color: #2b0a57;
+  color: white;
+  padding: 0.625rem 1.25rem;
+  width: 19.75rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.btntwo {
+  color: #2b0a57;
+  background-color: white;
+  border: none;
+  border-radius: 0.5rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.form-checkbox {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 0.2rem;
+  margin-left: 4rem;
+}
+
+label.inline-flex {
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+label.inline-flex span {
+  margin-left: 1rem;
+}

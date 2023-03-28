@@ -1,0 +1,6 @@
+import { createApp } from '/node_modules/.vite/deps/vue.js?v=667ff556'
+import App from '/src/App.vue?t=1679859494250'
+
+import '/src/assets/style.css?t=1679859494250'
+
+createApp(App).mount('#app')
