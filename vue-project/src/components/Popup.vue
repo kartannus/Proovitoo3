@@ -3,10 +3,8 @@
     <button class="btntwo w-rounded bg-white cursor-pointer semi-bold" @click="toggleModal = !toggleModal">
       Not interested
     </button>
-    <!--popup sisu-->
     <div class="fixed inset-0 flex justify-center items-center z-50" v-if="toggleModal">
       <div class="bg-white rounded-xl w-96 h-auto px-5 py-4 flex flex-col">
-        <!--X nupp-->
         <button class="text-lg text-gray-300 hover:text-gray-900 cursor-pointer" @click="toggleModal = false">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
             class="w-6 h-6">

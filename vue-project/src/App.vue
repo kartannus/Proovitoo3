@@ -11,15 +11,12 @@
           d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75">
         </path>
       </svg></div>
-
-
-    <div class="flex justify-center flex-wrap mr-10"> <!--see paneb kogu klaustri pic + text keskele-->
+    <div class="flex justify-center flex-wrap mr-10">
       <div class="relative">
         <img class="rectangle" src="./assets/img/rectangle.png" alt="Rectangle">
         <img class="cupcake absolute top-30 left-35 flex" src="./assets/img/cupcake.png" alt="Cupcake">
       </div>
-
-      <div class="pl-36"> <!--teksti ja pildi vahe suurus, vahe suuruse muutmiseks kasuta md v lg-d jne-->
+      <div class="pl-36">
         <div class="grid gap-1 grid-cols-1 grid-rows-2 text-center mt-12">
           <span class="text-4xl">Good news!</span>
           <span class="text-lg text-gray-500">Your loan has been approved</span>
@@ -30,9 +27,9 @@
         <div
           class="grid items-end gap-y-10 grid-cols-2 grid-rows-3 text-center text-gray-500 px-2 border-gray-200 h-32 justify-center">
           <span>Personal loan offer</span>
-          <span class="text-black text-lg">1,700.00 €</span> <!--siia lisada dollar sign-->
+          <span class="text-black text-lg">1,700.00 €</span>
           <span>Loan period</span>
-          <span class="text-black text-lg">36 months</span><!--months peab väiksem olema kui 36-->
+          <span class="text-black text-lg">36 months</span>
           <span>Monthly payment</span>
           <span class="text-black text-lg">92.27%</span>
         </div>
@@ -55,8 +52,6 @@
           </svg>
           &nbsp; Promo code applied
         </div>
-
-
         &nbsp;
         <div class="border-t-1 border border-gray-130"></div>
         &nbsp;
